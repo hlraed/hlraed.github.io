@@ -1,0 +1,97 @@
+body {
+    font: 15px/2em Calibri, Verdana, sans-serif;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Global */
+
+
+/* Overskrift */
+header {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation bar */
+
+nav {
+    overflow: hidden;
+    background-color: #dcdcdc;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0.5em 1em 0.5em 1em;
+    display: inline-block;
+}
+
+/* Når man hvilker musen over et link på navigationsbar */
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: #5a91bf;
+}
+
+.active {
+    background-color: #4682B4;
+    color: #ffffff;
+}
+
+/* Section (tekst) */
+
+section {
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 1em;
+    margin: auto;
+
+}
+
+/*Evaluerings-skema*/
+
+.iframe-container {
+    overflow: hidden;
+    padding: 56.25%;
+
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    margin: auto;
+    overflow: hidden;
+    background: #4682B4;
+    color: whitesmoke;
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    padding: 20px 0 20px 0;
+}
